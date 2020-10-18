@@ -6,10 +6,10 @@ Basic content management system for starters, supports Laravel 7.0.
 ## Features:
 
     Admin Panel
-        Page, category, and article management
+        Page, category, and roll management
         
     Front-end
-        View pages, articles and categories
+        View pages, categories and roll.
 
 ## Quick Start:
 
@@ -21,7 +21,7 @@ $ composer install
 
 Run the command below to initialize. Do not forget to configure your .env file.
 
-$ php artisan cms:initialize --seed
+$ php artisan db:seed
 
 Install node and npm following one of the techniques explained in this link to create and compile the assets of the application.
 
