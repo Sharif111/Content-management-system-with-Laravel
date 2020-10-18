@@ -3,20 +3,20 @@
 Basic content management system for starters, supports Laravel 7.0.
 
 
-Features:
+## Features:
 
     Admin Panel
         Page, category, and article management
         
     Front-end
-       
         View pages, articles and categories
 
-Quick Start:
+## Quick Start:
 
 Clone this repository and install the dependencies.
 
 $ git clone https://github.com/Sharif111/Content-management-system-with-Laravel
+
 $ composer install
 
 Run the command below to initialize. Do not forget to configure your .env file.
@@ -26,6 +26,7 @@ $ php artisan cms:initialize --seed
 Install node and npm following one of the techniques explained in this link to create and compile the assets of the application.
 
 $ npm install
+
 $ npm run dev
 
 Finally, serve the application.
